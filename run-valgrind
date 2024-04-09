@@ -1,0 +1,4 @@
+#!/bin/sh
+
+valgrind --leak-check=yes ./decoder cat.enc
+
